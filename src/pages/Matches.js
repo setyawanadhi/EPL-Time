@@ -13,7 +13,7 @@ export default function Matches(props) {
     setHasError(false)
     const options = {
       method: 'GET',
-      url: `http://api.football-data.org/v2/competitions/2021/matches?status=FINISHED`,
+      url: `https://api.football-data.org/v2/competitions/2021/matches?status=FINISHED`,
       headers: {
         'X-Auth-Token': 'ea0130e692a3472889646ef54e20b7e3',
       },
